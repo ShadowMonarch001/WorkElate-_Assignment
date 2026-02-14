@@ -1,0 +1,15 @@
+# Python version
+# Make sure your environment is Python 3.11.3
+
+# Core libraries
+requests==2.31.0
+python-dotenv==1.1.0
+numpy==1.26.0
+
+# FAISS for embeddings and vector search
+faiss-cpu==1.7.4
+
+# Sentence Transformers for embeddings
+sentence-transformers==2.2.2
+transformers==4.35.0
+torch==2.1.0

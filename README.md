@@ -43,6 +43,14 @@ The project includes:
 ---
 
 ## How to Run
+Set up your OpenRouter API key
+
+Create a .env file in the project root:
+Add your OpenRouter API key to the .env file:
+
+```
+OPENROUTER_API_KEY=your_api_key_here
+```
 
 ```bash
 # Clone the repo

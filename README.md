@@ -31,7 +31,7 @@ The project includes:
 
 ### 2. What I Would Change About the Task
 
-- Isolate **data per company/product**. For example, Company A vs. Company B, so memory retrieval doesn’t mix contexts.  
+- Isolate **data per company/product**. For example, Company A vs. Company B, so memory retrieval doesn’t mix contexts which i couldnt implement
 - Add a **simple CLI dashboard** to visualize plan sections and key KPIs instead of relying solely on QA.  
 - Include **automatic plan versioning**, so updates don’t overwrite previous versions.  
 
@@ -57,7 +57,19 @@ python main.py
 ```
 
 ## Usage
+# Product Brief
 
+To generate a plan, make sure to update the product brief in `main.py`:
+
+```python
+brief = {
+    "product_name": "BoardFlow",
+    "target_users": "Remote product teams",
+    "core_features": ["Task automation", "AI summaries", "Workflow tracking"],
+    "timeline": "6 weeks",
+    "budget": "$50,000"
+}
+```
 - **Choose 1** to generate a new launch plan.  
 - **Choose 2** to ask questions about an existing plan.  
 
@@ -69,4 +81,5 @@ Plans are saved to `launch_plan.json`.
 
 - Persistent, **stateful AI systems** are crucial for multi-step reasoning tasks.  
 - Structuring prompts and **memory retrieval carefully** ensures accurate and actionable outputs.  
-- **Isolating memory per use case** (e.g., per company/product) avoids cross-contamination of context.  
+- **Isolating memory per use case** (e.g., per company/product) avoids cross-contamination of context.
+- There are many more thing i need to add 

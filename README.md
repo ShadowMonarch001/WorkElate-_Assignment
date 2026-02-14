@@ -63,7 +63,8 @@ pip install -r requirements.txt
 # Run the main agent
 python main.py
 ```
-
+- Make sure you delete the launch_plan.json before runing
+  
 ## Usage
 # Product Brief
 

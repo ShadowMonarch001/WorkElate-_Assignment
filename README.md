@@ -1,4 +1,4 @@
-# WorkElate AI Internship — Stateful Execution Agent
+# Stateful Execution Agent
 
 ## Overview
 
